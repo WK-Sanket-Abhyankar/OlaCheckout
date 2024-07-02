@@ -1,6 +1,12 @@
 .sidebar_main_container {
   width: 100%;
+  height: 100%;
   padding: 24px;
+  position: relative;
+}
+
+.sidebar_main_container_inner {
+  height: 100%;
 }
 
 .sb_top_section {
@@ -212,4 +218,53 @@
 
 .moreLinks_details p:nth-of-type(2) {
   font-size: 16px;
+}
+
+.footer_container {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+.footer_ad {
+  display: flex;
+  color: white;
+  font-size: 14px;
+  background-color: #28a745;
+  padding: 10px;
+  gap: 10px;
+}
+
+.footer_container_details {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.footer_container_details button {
+  height: 48px;
+  width: 204px;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer_container_details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer_container_details > div p:nth-of-type(1) {
+  font-size: 21px;
+}
+
+.footer_container_details > div p:nth-of-type(2) {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.56);
+  text-decoration: underline;
 }
