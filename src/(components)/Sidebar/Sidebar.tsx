@@ -4,6 +4,7 @@ import Image from "next/image";
 import ColorSelector from "./ColorSelector";
 import ModelPicker from "./ModelPicker";
 import ProductDetails from "./ProductDetails";
+import MoreLinks from "./MoreLinks";
 
 export default function Sidebar() {
   return (
@@ -27,6 +28,9 @@ export default function Sidebar() {
       </div>
       <div>
         <ProductDetails />
+      </div>
+      <div>
+        <MoreLinks />
       </div>
     </section>
   );

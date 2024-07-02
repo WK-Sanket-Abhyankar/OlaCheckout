@@ -12,6 +12,8 @@ import color5 from "../../public/images/midnight_blue_circle.png";
 import model1 from "../../public/images/ola-s1-pro-icon.svg";
 import model2 from "../../public/images/ola-s1-air-icon.svg";
 import model3 from "../../public/images/s1X_img.svg";
+import morL1 from "../../public/images/delivery-icon.svg";
+import moreL2 from "../../public/images/compare-models-icon.svg";
 
 import { StaticImageData } from "next/image";
 
@@ -32,3 +34,22 @@ export const productColors: StaticImageData[] = [
 ];
 
 export const productModels: StaticImageData[] = [model1, model2, model3];
+
+export type TMoreLinks = {
+  icon: StaticImageData;
+  title: string;
+  subtitle: string;
+};
+
+export const moreLinks: TMoreLinks[] = [
+  {
+    icon: morL1,
+    title: "DELIVERING TO",
+    subtitle: "Select location",
+  },
+  {
+    icon: moreL2,
+    title: "COMPARE MODELS",
+    subtitle: "View full spec sheet",
+  },
+];
