@@ -3,6 +3,7 @@ import arrowBack from "../../../public/images/back_arrow_icon.svg";
 import Image from "next/image";
 import ColorSelector from "./ColorSelector";
 import ModelPicker from "./ModelPicker";
+import ProductDetails from "./ProductDetails";
 
 export default function Sidebar() {
   return (
@@ -23,6 +24,9 @@ export default function Sidebar() {
       </div>
       <div>
         <ModelPicker />
+      </div>
+      <div>
+        <ProductDetails />
       </div>
     </section>
   );
