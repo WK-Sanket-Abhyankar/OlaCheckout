@@ -1,0 +1,9 @@
+.main {
+  width: 100%;
+  display: flex;
+}
+
+.sidebar {
+  width: 400px;
+  flex-shrink: 0;
+}

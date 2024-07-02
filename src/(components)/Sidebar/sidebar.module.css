@@ -1,0 +1,128 @@
+.sidebar_main_container {
+  width: 100%;
+  padding: 24px;
+}
+
+.sb_top_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sb_arrow_button {
+  background-color: transparent;
+  border: none;
+}
+
+.pincode_select {
+  display: flex;
+  color: #6c757d;
+  font-size: 12px;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.select {
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.color_selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.color_selector_title_container {
+  display: flex;
+  gap: 4px;
+  margin-right: auto;
+}
+.color_selector_title_container > span {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.color_selector_title_container > span:nth-of-type(1) {
+  color: #6c757d;
+}
+
+.color_selector_title_container > span:nth-of-type(2) {
+  font-weight: 500;
+}
+
+.buttons_list {
+  display: flex;
+  gap: 10px 24px;
+  flex-wrap: wrap;
+}
+
+.color_button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: transparent;
+  border: none;
+}
+
+.color_button_image {
+  width: 40px;
+  height: 40px;
+}
+
+.model_picker_container {
+  font-size: 16px;
+}
+
+.model_picker_container h3 {
+  font-size: 13px;
+  margin-bottom: 16px;
+  font-weight: normal;
+}
+
+.mp_buttons {
+  display: flex;
+}
+
+.mp_buttons button {
+  background-color: #f9f9f9;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 49px;
+}
+
+.mp_note {
+  padding: 8px;
+  border-radius: 0px 0px 8px 8px;
+  background: linear-gradient(180deg, rgba(232, 247, 238, 0) 0%, #e8f7ee 100%);
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  color: #16aa51;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mp_note p {
+  margin-right: auto;
+}
+
+.mp_note img {
+  margin-right: 10px;
+}
+.mp_note button {
+  border: none;
+  background-color: transparent;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

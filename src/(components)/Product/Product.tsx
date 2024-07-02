@@ -36,7 +36,7 @@ export default function Product() {
         <Image src={rightArrow} alt="<" role="presentation" />
       </button>
       <div className={style.image_container}>
-        <Image src={productBikeImages[selectedIndex]} alt="bike image" />
+        <Image src={productBikeImages[selectedIndex]} alt="bike image" className={style.image_container_image} />
       </div>
     </section>
   );
