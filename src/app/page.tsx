@@ -5,7 +5,6 @@ import styles from "./page.module.css";
 import Product from "@/(components)/Product/Product";
 import Sidebar from "@/(components)/Sidebar/Sidebar";
 import logo from "../../public/images/logo.svg";
-import PinCodePrompt from "@/(components)/Prompt/PinCodePrompt";
 
 export default function Home() {
   return (
