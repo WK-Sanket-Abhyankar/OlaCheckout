@@ -16,12 +16,10 @@ export default function PinCodePrompt(props: IPinCodePrompts) {
           onClick={(e) => e.stopPropagation()}
         >
           <div className={style.p_container_card_title}>
-            <h3>
-              Enter your registration PIN Code Scooter price depends on PIN
-              Code.
-            </h3>
+            <h3>Enter your registration PIN Code</h3>
             <h4>
-              For registration, PIN Code should be as per your address proofs
+              Scooter price depends on PIN Code. For registration, PIN Code
+              should be as per your address proofs
             </h4>
           </div>
           <input type="text" placeholder="PIN Code" className={style.p_input} />
