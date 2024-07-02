@@ -35,18 +35,10 @@ export default function Sidebar() {
             </select>
           </label>
         </div>
-        <div>
-          <ColorSelector />
-        </div>
-        <div>
-          <ModelPicker />
-        </div>
-        <div>
-          <ProductDetails />
-        </div>
-        <div>
-          <MoreLinks />
-        </div>
+        <ColorSelector />
+        <ModelPicker />
+        <ProductDetails />
+        <MoreLinks />
       </div>
       <Footer />
       {open && <PinCodePrompt onClose={onClose} />}
