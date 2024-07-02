@@ -69,6 +69,10 @@
   background-color: white;
 }
 
+.note_container p {
+  color: #707070;
+}
+
 .note_title {
   display: flex;
   gap: 30px;

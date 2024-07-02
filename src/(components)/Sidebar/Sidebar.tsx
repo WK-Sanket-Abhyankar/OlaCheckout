@@ -8,7 +8,6 @@ import MoreLinks from "./MoreLinks";
 import Footer from "./Footer";
 import useModel from "@/(hooks)/useModel";
 import PinCodePrompt from "../Prompt/PinCodePrompt";
-import NotePrompt from "../Prompt/NotePrompt";
 
 export default function Sidebar() {
   const { open, onOpen, onClose } = useModel();
@@ -26,7 +25,12 @@ export default function Sidebar() {
             onClick={onOpen}
           >
             <span>DELIVERING TO</span>
-            <select name="pincode" id="pincode" className={style.select}>
+            <select
+              disabled
+              name="pincode"
+              id="pincode"
+              className={style.select}
+            >
               <option value="null">Pincode</option>
             </select>
           </label>
